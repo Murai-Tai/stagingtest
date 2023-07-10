@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>フォトスタジオ(写真館)向け 無料ホームページテンプレート tp_photostudio1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="ここにサイト説明を入れます">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<div id="container">
+
+<div id="contents">
+
+<header>
+<h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="Photo Studio"></a></h1>
+</header>
+
+<main>
+
+<section>
+
+<h2>About<span>当スタジオについて</span></h2>
+
+<p class="c"><img src="images/sample3.jpg" alt=""></p>
+
+<p class="c">このブロックは特にこだわったスタイルは指定していません。<br>
+ただ、要素に対して<span class="look">c</span>というclassを指定し、内容をセンタリングしています。<br>
+上の画像はかなり大きいので、ウィンドウ幅いっぱいに広がって見えると思いますが、サイズが小さくてのも左によらずにセンタリングされます。</p>
+
+</section>
+
+<section>
+
+<h2>About<span>当スタジオについて</span></h2>
+
+<div class="tp-box">
+
+<div class="text">
+<p>このブロックは、親となるブロックに<span class="look">tp-box</span>というclass名をつけ、<span class="look">その中に２つのブロック</span>を作ります。<br>
+２つのdivタグにもそれぞれ<span class="look">photo</span>と<span class="look">text</span>というclassをつけて下さい。</p>
+<p>tp-box内に作るブロックは必ず２つにして下さい。３つ以上になるとレイアウトが崩れます。どうしても３つ以上にしたい場合は、いったん２つだけ作りその中で小分けにして下さい。</p>
+<p>写真の影をなくしたい場合は、cssフォルダのstyle.cssの<span class="look">.tp-box .photo {</span>の中にあるbox-shadowの１行を削除して下さい。その他調整もそこでできます。</p>
+</div>
+
+<div class="photo">
+<img src="images/sample1.jpg" alt="">
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>About<span>当スタジオについて</span></h2>
+
+<div class="tp-box">
+
+<div class="photo">
+<img src="images/sample2.jpg" alt="">
+</div>
+
+<div class="text">
+<p>ここに説明を入れます。サンプルテキスト。サンプルテキスト。サンプルテキスト。<br>
+サンプルテキスト。サンプルテキスト。サンプルテキスト。<br>
+ここに説明を入れます。サンプルテキスト。サンプルテキスト。サンプルテキスト。<br>
+サンプルテキスト。サンプルテキスト。サンプルテキスト。</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2>当テンプレートの使い方</h2>
+
+<h3>初心者向けマニュアル公開中</h3>
+<p>画像加工やテンプレートの編集方法、無料サーバーを使ってサイトを公開するなど動画をまじえてわかりやすく解説しています。<br>
+<a href="https://template-party.com/file/" target="_blank">初心者向けマニュアルはこちら。</a></p>
+
+<h3>titleタグ、copyright、metaタグ、他の設定</h3>
+<p><strong class="color-theme">titleタグの設定はとても重要です。念入りにワードを選んで適切に入力しましょう。</strong><br>
+まず、htmlソースが見れる状態にして、<br>
+<span class="look">&lt;title&gt;フォトスタジオ(写真館)向け 無料ホームページテンプレート tp_photostudio1&lt;/title&gt;</span><br>
+を編集しましょう。<br>
+あなたのホームページ名が「Photo Studio」だとすれば、<br>
+<span class="look">&lt;title&gt;Photo Studio&lt;/title&gt;</span><br>
+とすればＯＫです。SEO対策もするなら冒頭に重要なワードを入れておきましょう。</p>
+<p><strong class="color-theme">copyrightを変更しましょう。</strong><br>
+続いてhtmlの下の方にある、<br>
+<span class="look">Copyright&copy; Photo Studio All Rights Reserved.</span><br>
+の部分もあなたのサイト名に変更します。</p>
+<p><strong class="color-theme">metaタグを変更しましょう。</strong><br>
+htmlソースが見える状態にしてmetaタグを変更しましょう。</p>
+<p>ソースの上の方に、<br>
+<span class="look">content=&quot;ここにサイト説明を入れます&quot;</span><br>
+という部分がありますので、テキストをサイトの説明文に入れ替えます。検索結果の文面に使われる場合もありますので、見た人が来訪したくなるような説明文を簡潔に書きましょう。</p>
+<p><strong class="color-theme">h1ロゴのaltタグも変更しましょう。</strong><br>
+html側に、<br>
+<span class="look">alt=&quot;Photo Studio&quot;</span><br>
+となっている箇所があるので、この部分もあなたのサイト名に変更しましょう。</p>
+
+</section>
+
+<section>
+
+<h3>アイコン画像について（Bootstrap Iconsの解説）</h3>
+<p>imagesフォルダに入っていない画像（アイコン）は全てBootstrap Iconsの素材です。<br>
+<a href="https://icons.getbootstrap.jp/" target="_blank">Bootstrap Icons アイコン一覧</a></p>
+<p>iタグを使ってhtmlに直接アイコンを読み込む場合と、cssの擬似要素を使って読み込む場合の２通りで使用しました。<br>
+それぞれ他のアイコンに置き換えたい場合は、当サイトの<a href="https://template-party.com/tips/tips20230601_bootstrap.html" target="_blank">マニュアル</a>をお読み下さい。</p>
+<p>Bootstrap Iconsを使う為に必要なタグ、ファイル類。<br>
+cssフォルダのstyle.css冒頭で読み込んでいる「Bootstrap Iconsの読み込み」のブロック。</p>
+<p>何年も経過した場合、動作に問題が出てくる可能性があります。<br>
+テンプレートを編集していないのに突然動きがおかしくなった場合は、style.cssの冒頭でCDNから読み込んでいるBootstrap Icons関連のファイルのバージョンを変更して動作するか確認してみて下さい。</p>
+
+</section>
+
+<section>
+
+<h3>トップページのスライドショー画像について</h3>
+<p>AI出力されたものを梱包していますのでそのまま再利用頂いても構いませんが著作は当サイトにあります。<br>
+このテンプレートの公開時点では、AIサイトによると「著作は作り出した人のもの」（＝当サイト）という規約になっているようです。</p>
+<p>AI出力でないリアルな画像に入れ替えたい場合は<a href="https://www.photo-ac.com/#a_aid=60e590da89d1f&amp;a_bid=35660fdf" target="_blank">写真ACさん（無料写真サイト）</a><img style="border:0" src="https://acworks.postaffiliatepro.com/scripts/g5iueh?a_aid=60e590da89d1f&amp;a_bid=35660fdf" width="1" height="1" alt="" />がおすすめです。</p>
+
+<h3>トップページのスライドショー（vegas）の解説</h3>
+<p>トップページのスライドショーには、vegasを使用しています。<br>
+テンプレート内の解説及び、当サイト上でのマニュアル以外のサポートは基本的には行なっておりませんので、使いこなしたい方はGoogle検索などかけてみて下さい。</p>
+<p>vegas 公式サイト：<a href="https://vegas.jaysalvat.com/" target="_blank">https://vegas.jaysalvat.com/</a><br>
+オプション一覧：<a href="https://vegas.jaysalvat.com/documentation/settings/" target="_blank">https://vegas.jaysalvat.com/documentation/settings/</a><br>
+トランジション一覧：<a href="https://vegas.jaysalvat.com/documentation/transitions/" target="_blank">https://vegas.jaysalvat.com/documentation/transitions/</a></p>
+<p>上記の「トランジション一覧」で、色々なスライドショーのパターンを見る事ができます。お好みで設定を変更してみて下さい。jsフォルダのvegas.jsの値を変更するだけです。</p>
+<p><strong class="color-theme">画像を入れ替える場合や、枚数を変更したい場合。</strong><br>
+画像を入れ替えたい場合は、imagesフォルダの1.jpg〜3.jpgを上書きして下さい。<br>
+枚数を変更する場合や画像ファイル名を変更する場合は、jsフォルダのvegas.jsを開いて編集して下さい。枚数追加は、既存の画像読み込み行をコピペして画像ファイル名を入れ替えるだけでOKです。</p>
+<p><strong class="color-theme">16:9の比率の背景画像をレスポンシブ化しています</strong><br>
+サンプルテンプレートでは、16:9の画像がレスポンシブになるようcssで設定されています。<br>
+この比率以外でも問題なく表示されますが、部分的に切り抜かれるので、16:9以外の比率の画像を全部表示させたければ以下を調整して下さい。<br>
+cssフォルダのstyle.cssの、<br>
+<span class="look">#mainimg-box {</span><br>
+の中にある、<br>
+<span class="look">padding-top: 56.25%;</span><br>
+を調整します。56.25というのは、9÷16=56.25の事です。<br>
+もし、3:2の画像を使いたければ、2÷3=66.66<br>
+<span class="look">padding-top: 66.66%;</span><br>
+と書き直せばOKです。</p>
+<p><strong class="color-theme">vegasを使う為に必要なタグ、ファイル類。</strong><br>
+1. html冒頭のhead内にある「vegas.min.css」の読み込みの１行。<br>
+2. htmlにある「スライドショー」のブロック。<br>
+3. html下部にある「jQueryの読み込み」のブロック。※下のjsファイルより先に読み込んで下さい。<br>
+4. その下の「スライドショー（vegas）」のブロック。<br>
+5. jsフォルダ内の「vegas.js」。</p>
+<p><strong class="color-theme">何年も経過した場合、動作に問題が出てくる可能性があります。</strong><br>
+テンプレートを編集していないのに突然動きがおかしくなった場合は、CDNから読み込んでいるjQueryのバージョン及びvegas関連のファイルのバージョンを変更して動作するか確認してみて下さい。</p>
+
+</section>
+
+<section>
+
+<h3>サムネイルスライドについて</h3>
+<p>slickを使ったスラドショーになっています。<a href="https://kenwheeler.github.io/slick/" target="_blank">slick 公式サイト</a><br>
+テンプレート内の解説及び、当サイト上でのマニュアル以外のサポートは基本的には行なっておりませんので、使いこなしたい方はGoogle検索などかけてみて下さい。</p>
+
+<div class="list-slide">
+
+<div class="list">
+<figure><img src="images/1.jpg" alt=""></figure>
+</div>
+
+<div class="list">
+<figure><img src="images/2.jpg" alt=""></figure>
+</div>
+
+<div class="list">
+<figure><img src="images/3.jpg" alt=""></figure>
+</div>
+
+<div class="list">
+<figure><img src="images/1.jpg" alt=""></figure>
+</div>
+
+<div class="list">
+<figure><img src="images/2.jpg" alt=""></figure>
+</div>
+
+<div class="list">
+<figure><img src="images/3.jpg" alt=""></figure>
+</div>
+
+</div>
+<!--/.list-slide-->
+
+<p>写真の縦横サイズを予め揃えておくと綺麗に並びます。<br>
+枚数は自由に変更できます。html側に既存の写真ブロックをコピペして新しい画像ファイル名に書き換えて下さい。<br>
+スライドショーの設定は、jsフォルダのslick.jsで調整できます。</p>
+<p><strong class="color-theme">slickを使う為に必要なタグ、ファイル類。</strong><br>
+1. html下部にある、「jQueryファイルの読み込み」のタグ。※下のjsファイルより先に読み込んで下さい。<br>
+2. その下にある、「スライドショー（slick）」からの数行のタグ。<br>
+3. jsフォルダ内の「js/slick.js」。</p>
+
+</section>
+
+<section>
+
+<h3>出現アニメーションについて</h3>
+<p>以下のような出現のアニメーションサンプルを<a href="sample_inview.html">sample_inview.html</a>にまとめています。<br>
+好きなアニメーションに簡単に変更できますし、オリジナルのものを作る事もできます。</p>
+
+<div class="list-container">
+
+<div class="list blur">
+<figure><a href="#"><img src="images/1.jpg" alt=""></a></figure>
+</div>
+
+<div class="list up">
+<figure><a href="#"><img src="images/2.jpg" alt=""></a></figure>
+</div>
+
+<div class="list transform1">
+<figure><a href="#"><img src="images/3.jpg" alt=""></a></figure>
+</div>
+
+<div class="list transform2">
+<figure><a href="#"><img src="images/sample2.jpg" alt=""></a></figure>
+</div>
+
+</div>
+<!--/.list-container-->
+
+</section>
+
+<section>
+
+<h3>汎用開閉ブロックのサンプル</h3>
+<p>以下は「よく頂く質問」を例にサンプルを用意していますが汎用的な開閉ブロックなので、基本的にはどこにでも使えます。<br>
+クリック対象としたいブロックに<span class="look"><span class="color-check">class=&quot;openclose&quot;</span></span>とつければ、続く要素が自動的に開閉ブロックになります。<br>
+もしすでにclass指定がある場合は、半角スペースで区切って追加すればOKです。<br>
+<span class="look">例：class=&quot;sample <span class="color-check">openclose</span>&quot;</span></p>
+
+<dl class="faq">
+
+<dt class="openclose">ここに質問を書きます。クリックで回答が開きます。</dt>
+<dd>ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。</dd>
+
+<dt class="openclose">ここに質問を書きます。クリックで回答が開きます。ここに質問を書きます。クリックで回答が開きます。ここに質問を書きます。クリックで回答が開きます。ここに質問を書きます。クリックで回答が開きます。</dt>
+<dd>ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。<br>
+ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。</dd>
+
+</dl>
+
+</section>
+
+<section>
+
+<h2>トップページのNEWSブロック</h2>
+
+<div class="lr">
+
+<h2>見出し</h2>
+
+<div>
+<p>トップページのNEWSブロックは左右に分かれています。特にNEWS専用で作った訳ではないので、汎用的に使って下さい。</p>
+<p>一番外側のブロックに、<span class="look">.lr</span>というclass名をつけ、その中に２つのブロックを作ればOKです。３つ以上になるとレイアウトが崩れるので、ブロックを小分けしたい場合は、その下の階層で小分けして下さい。</p>
+<p>ここのスタイルは、cssフォルダのstyle.cssで<span class="look">.lr</span>とテキスト検索すれば出てきます。</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>枠線を囲むアニメーションボタン</h2>
+
+<div class="c">
+<p class="animation-btn">
+<a href="" class="animation-btn-inner">枠線を囲むアニメーションボタン<i class="bi bi-arrow-right"></i></a>
+</p>
+</div>
+
+<p>このテンプレートではあまり使っていませんが、マウスオン時に枠線を囲むアニメーションボタンもあります。<br>
+ボタンのhtml側を見ればわかりますが、外側に<span class="look">animation-btn</span>、内側に<span class="look">animation-btn-inner</span>をつける事で動作します。必ずセットで使って下さい。</p>
+<p>その外側のdivタグのclassは左右の配置についてです。左よせでいいなら一番外側のdivは削除してもOKです。<br>
+テキスト右側の矢印（<i class="bi bi-arrow-right"></i>）は上で解説しているBootstrap Iconsです。iタグなので使わないならhtml側からiタグを削除して下さい。</p>
+<p>枠線の色など変更したければ、cssフォルダのstyle.cssで「アニメーションボタン」とテキスト検索してみて下さい。説明もあります。</p>
+
+</section>
+
+</main>
+
+</div>
+<!--/#contents-->
+
+<footer>
+
+<ul id="footermenu">
+<li><a href="index.html">ホーム</a></li>
+<li><a href="about.html">当スタジオについて</a></li>
+<li><a href="plan.html">プランと料金について</a></li>
+<li><a href="photo.html">ポートフォリオ</a></li>
+<li><a href="faq.html">よく頂く質問</a></li>
+<li><a href="access.html">アクセス</a></li>
+<li><a href="contact.html">お問い合わせ</a></li>
+</ul>
+
+<div class="copy">
+<small>Copyright&copy; <a href="index.html">Photo Studio</a> All Rights Reserved.</small>
+<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+</div>
+
+</footer>
+
+</div>
+<!--/#container-->
+
+<!--開閉ブロック-->
+<div id="menubar">
+
+<nav>
+<h2>Contents</h2>
+<ul class="submenu">
+<li><a href="index.html">ホーム</a></li>
+<li><a href="about.html">当スタジオについて</a></li>
+<li><a href="plan.html">プランと料金について</a></li>
+<li><a href="photo.html">ポートフォリオ</a></li>
+<li><a href="faq.html">よく頂く質問</a></li>
+<li><a href="access.html">アクセス</a></li>
+<li><a href="contact.html">お問い合わせ</a></li>
+</ul>
+</nav>
+
+<ul class="icons">
+<li><a href=""><i class="bi bi-facebook"></i></a></li>
+<li><a href=""><i class="bi bi-twitter"></i></a></li>
+<li><a href=""><i class="bi bi-youtube"></i></a></li>
+<li><a href=""><i class="bi bi-instagram"></i></a></li>
+</ul>
+
+</div>
+<!--/#menubar-->
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="bi bi-arrow-up"></i></a></div>
+
+<!--開閉ボタン（ハンバーガーアイコン）-->
+<div id="menubar_hdr">
+<span></span><span></span>
+</div>
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--lightbox用jsファイルの読み込み-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/js/lightbox-plus-jquery.min.js"></script>
+
+<!--スライドショー（vegas）-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vegas/2.5.4/vegas.min.js"></script>
+<script src="js/vegas.js"></script>
+
+<!--パララックス（inview）-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+<script src="js/jquery.inview_set.js"></script>
+
+<!--スライドショー（slick）-->
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/slick.js"></script>
+
+<!--このテンプレート専用のスクリプト-->
+<script src="js/main.js"></script>
+
+</body>
+</html>

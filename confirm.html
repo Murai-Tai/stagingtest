@@ -19,94 +19,50 @@
 <h1 id="logo"><a href="index.html"><img src="images/logo.png" alt="Photo Studio"></a></h1>
 </header>
 
-<!--スライドショー-->
-<div id="mainimg-box">
-<div id="mainimg"></div>
-<div id="campaign"><a href="">キャンペーン中</a></div>
-</div>
-
 <main>
 
-<section class="lr blur">
+<section>
 
-<h2>News</h2>
+<h2>CONTACT<span>確認画面</span></h2>
 
-<div class="new">
+<!-- フォームの情報はここからです -->
+<form name="form1" enctype="multipart/form-data" method="post" action="<?php echo $_SERVER["REQUEST_URI"];?>">
+<input type="hidden" name="mode" value="confirm">
+<table class="ta1">
+<!--<tr><td colspan="2" class="auto"><strong>確認画面</strong></td></tr>-->
+<!-- 入力／確認 -->
+<!--<tr><th class="tamidashi" colspan="2">お問い合わせフォーム</th></tr>-->
+<tr>
+<th width="150">お名前</th>
+<td>
+<input type="hidden" name="item1" value="<?php echo $form["item1"];?>">
+<?php echo $form["item1"];?>
+</td>
+</tr>
+<tr>
+<th width="150">メールアドレス</th>
+<td>
+<input type="hidden" name="item2" value="<?php echo $form["item2"];?>">
+<?php echo $form["item2"];?>
+</td>
+</tr>
+<tr>
+<th>お問い合わせ内容</th>
+<td>
+<input type="hidden" name="item3" value="<?php echo $form["item3"]; ?>">
+<?php echo nl2br($form["item3"]);?>
+</td>
+</tr>
+</table>
 
-<dl>
-<dt>2023.06.02</dt>
-<dd>tp_photostudio1配布開始。</dd>
-<dt>2023.00.00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>2023.00.00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>2023.00.00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-</dl>
-
-<div class="r">
-<p class="animation-btn">
-<a href="log.html" class="animation-btn-inner">もっとみる<i class="bi bi-arrow-right"></i></a>
+<p class="c">
+<input type="submit" value="送信する">
+&nbsp;
+<input type="button" value="戻る" onClick="document.form1.mode.value='reinput';document.form1.submit()">
 </p>
-</div>
 
-</div>
-<!--/.new-->
-
-</section>
-
-<section class="blur">
-
-<h2>Photo Gallery<span>フォトギャラリー集</span></h2>
-
-<div class="list-slide">
-
-<div class="list">
-<figure><img src="images/1.jpg" alt=""></figure>
-</div>
-
-<div class="list">
-<figure><img src="images/2.jpg" alt=""></figure>
-</div>
-
-<div class="list">
-<figure><img src="images/3.jpg" alt=""></figure>
-</div>
-
-<div class="list">
-<figure><img src="images/1.jpg" alt=""></figure>
-</div>
-
-<div class="list">
-<figure><img src="images/2.jpg" alt=""></figure>
-</div>
-
-<div class="list">
-<figure><img src="images/3.jpg" alt=""></figure>
-</div>
-
-</div>
-<!--/.list-slide-->
-
-</section>
-
-<section class="blur">
-
-<h2>Read Me<span>テンプレートのご利用前に必ずお読み下さい</span></h2>
-
-<h3 class="c">利用規約のご案内</h3>
-<p>このテンプレートは、<a href="https://template-party.com/">Template Party</a>にて無料配布している『フォトスタジオ(写真館)向け 無料ホームページテンプレート tp_photostudio1』です。必ずダウンロード先のサイトの<a href="https://template-party.com/read.html">利用規約</a>をご一読の上でご利用下さい。</p>
-<p><strong class="color-check">HP最下部の著作表示『Web Design:Template-Party』は無断で削除しないで下さい。</strong><br>
-わざと見えなく加工する事も禁止です。</p>
-<p><strong class="color-check">下部の著作を外したい場合は</strong><br>
-<a href="https://template-party.com/">Template-Party</a>の<a href="https://template-party.com/member.html">ライセンス契約</a>を行う事でHP下部の著作を外す事ができます。</p>
-
-<h3 class="c">当テンプレートの詳しい使い方は</h3>
-<div class="c">
-<p class="animation-btn">
-<a href="about.html#about" class="animation-btn-inner">こちらをご覧下さい</a>
-</p>
-</div>
+</form>
+<!-- フォームの情報はここまでです -->
 
 </section>
 
